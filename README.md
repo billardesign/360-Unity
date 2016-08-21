@@ -22,7 +22,7 @@ Place the camera where you want in the scene, for the purpose of creating a 360 
 the direction of the camera will not affect the vr as the 360 vr will allow the player to see in any direction.
 ## Panoramic Script
 To create the 360 vr video it is necessary to attach a script that records your game using a panoramic tool,
-this script can be found online in the Unity store for free [click here](https://www.assetstore.unity3d.com/en/#!/content/38755). 
+this script can be found online in the Unity store for free [(click here)](https://www.assetstore.unity3d.com/en/#!/content/38755). 
 This script comes with a Read Me file explaining how it functions, when you have installed the script into your assets folder,
 drag and drop the script file from your assets on the camera game object in the hierarchy afterwards go to the camera GameObject and
 through the inspector you can change the settings of the script file to what ever recording you wish to do.
@@ -47,4 +47,4 @@ Place this tv asset where you wish it to be in the scene, now that you have your
 new material. make sure that the material is set to shader: diffuse. now you can apply the video to the material, drag and drop the MP4 file into the texture square of the material and then
 apply the material to the game-object that is the tv. when this is done the image will be upsidedown so to fix that rotate the game-object until the orientation of the image is correct.
 You have now created an in-game TV.
-Here is a video tutorial of the process if needed: [click here](https://www.youtube.com/watch?v=-vd9Mdb2r34.)
+Here is a video tutorial of the process if needed: [(click here)](https://www.youtube.com/watch?v=-vd9Mdb2r34.)
