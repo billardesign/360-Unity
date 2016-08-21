@@ -4,7 +4,7 @@ The idea behind this project was to create a room for the purposes of a characte
 from a first person perspective, the viewer would take the role of the character and watch as the environment would change around her
 showing what the character is experiencing with whether it personal, physical or psychological.
 ## Build 3D Box/Room
-1: The first stage is to create the environment of the story which in this case is a room.
+The first stage is to create the environment of the story which in this case is a room.
 To create a room it is necessary to create a wall, to do this right-click in your hierarchy, go to 3D-object and select Cube.
 [Image_1]:
 After you have created a cube adjust its shape till it resembles one of the walls of your room, this can be done through the inspector or via the objects user-interface.
