@@ -6,10 +6,15 @@ showing what the character is experiencing with whether it personal, physical or
 ## Build 3D Box/Room
 The first stage is to create the environment of the story which in this case is a room.
 To create a room it is necessary to create a wall, to do this right-click in your hierarchy, go to 3D-object and select Cube.
-![1](https://cloud.githubusercontent.com/assets/20883838/17837022/414c7214-67b0-11e6-8f5b-eb0b5090e1a2.png)
+
+![alt text][logo][1](https://cloud.githubusercontent.com/assets/20883838/17837022/414c7214-67b0-11e6-8f5b-eb0b5090e1a2.png)
+
 After you have created a cube adjust its shape till it resembles one of the walls of your room, this can be done through the inspector or via the objects user-interface.
 when it is the dimensions that you want copy the object and paste 3 more, these will all need to have their positions
-individually adjusted and then placed under the same object category ![2](https://cloud.githubusercontent.com/assets/20883838/17837024/43a7e886-67b0-11e6-9e44-db35f8a0657e.png)
+individually adjusted and then placed under the same object category
+
+![2](https://cloud.githubusercontent.com/assets/20883838/17837024/43a7e886-67b0-11e6-9e44-db35f8a0657e.png)
+
 Now that you have a room built it is time to add assets to it, to do this you can either create your own using 3d modeling tools such as Maya, Z-brush, Google-Sketchup
 and many others or you can import already made ones from the Unity Store or from Google-Sketchup.
 ## Lighting/Sunlight
