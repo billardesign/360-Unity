@@ -33,7 +33,7 @@ drag and drop the script file from your assets on the camera game object in the 
 through the inspector you can change the settings of the script file to what ever recording you wish to do.
 ## Camera Movement/Animation
 If for you scene you wish to animate the camera/make it move around the scene you will need to use the animation window.
-first select your camera GameObject, then proceed to the window tab at the top and select animation, this will open the animation window. Unity have their own tutorial for this animation factor [(click here)](https://unity3d.com/learn/tutorials/topics/animation/animation-view?playlist=17099).
+first select your camera GameObject, then proceed to the window tab at the top and select animation, this will open the animation window. Unity have their own tutorial for this animation factor 
 the animation will ask you to create an .anim file, this will be the file stores the animation sequence,
 after creating the animation file you will be to start animating this.
 the first step will be to record the start point of the camera GameObject,
@@ -45,6 +45,7 @@ this will record the cameras properties and set them as the start point of the a
 the next step is to move the red vertical bar on the animation window to the next point you will want the camera to be and then press the keyframe
 button one again you will then need to change properties of the camera to where you want it to be (i.e. position, rotation etc)
 which will automatically record them to the keyframe that you previously selected.
+Unity have their own set of tutorials for the animation tool [(click here)](https://unity3d.com/learn/tutorials/topics/animation/animation-view?playlist=17099).
 ## Creating a In-Game TV
 To create a in-game TV you first need the video you wish to broadcast in MP4 format and it will also need to be imported into the assets folder,
 after this is done begin the process by first creating a game object that will represent the screen of the TV or you can import a TV asset that you created or that you have taken from another source.
