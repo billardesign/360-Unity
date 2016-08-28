@@ -48,7 +48,7 @@ which will automatically record them to the keyframe that you previously selecte
 Unity have their own set of tutorials for the animation tool [(click here)](https://unity3d.com/learn/tutorials/topics/animation/animation-view?playlist=17099).
 ## Creating a In-Game TV
 To create a in-game TV you first need the video you wish to broadcast in MP4 format and it will also need to be imported into the assets folder,
-after this is done begin the process by first creating a game object that will represent the screen of the TV or you can import a TV asset that you created or that you have taken from another source.
+after this is done, begin the process by first creating a game object that will represent the screen of the TV or you can import a TV asset that you created or that you have taken from another source.
 Place this tv asset where you wish it to be in the scene, now that you have your tv you will need to create a new material. this can be done through the project by right clicking and selecting create,
 new material. make sure that the material is set to shader: diffuse. now you can apply the video to the material, drag and drop the MP4 file into the texture square of the material and then
 apply the material to the game-object that is the tv. when this is done the image will be upsidedown so to fix that rotate the game-object until the orientation of the image is correct.
