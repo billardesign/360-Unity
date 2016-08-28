@@ -2,7 +2,7 @@
 ## Creating a 3d environment for 360 Youtube and VR tools.
 The idea behind this project was to create a room for the purposes of a character driven story
 from a first person perspective, the viewer would take the role of the character and watch as the environment would change around her
-showing what the character is experiencing with whether it personal, physical or psychological.
+showing what the character is experiencing with whether it be personal, physical or psychological.
 ## Build 3D Box/Room
 The first stage is to create the environment of the story which in this case is a room.
 To create a room it is necessary to create a wall, to do this right-click in your hierarchy, go to 3D-object and select Cube.
@@ -11,25 +11,25 @@ To create a room it is necessary to create a wall, to do this right-click in you
 
 After you have created a cube adjust its shape till it resembles one of the walls of your room, this can be done through the inspector or via the objects user-interface.
 when it is the dimensions that you want copy the object and paste 3 more, these will all need to have their positions
-individually adjusted and then placed under the same object category
+individually adjusted and then placed under the same object category.
 
 ![2](https://cloud.githubusercontent.com/assets/20883838/17837024/43a7e886-67b0-11e6-9e44-db35f8a0657e.png)
 
 Now that you have a room built it is time to add assets to it, to do this you can either create your own using 3d modeling tools such as Maya, Z-brush, Google-Sketchup
 and many others or you can import already made ones from the Unity Store or from Google-Sketchup.
 ## Lighting/Sunlight
-To add light to your scene you will need to create game objects for the light the natural light will be automatically provided by the Unity
-when your project is initially created, you can adjust it via its rotation to control intensity and time of day (dawn, dusk, noon etc).
-if you want to add light source to one of your objects that you have create or imported then you will need to create a pointlight game object, this can be done via the GameObject tab.
+To add light to your scene you will need to create game objects for the light that is originated from a source in your scene (i.e. lamp, screen etc) the natural light will be automatically provided by Unity
+when your project is initially created, you can adjust the natural light via its rotation to control intensity and time of day (dawn, dusk, noon etc).
+if you want to add light source to one of your objects that you have created or imported then you will need to create a pointlight game object, this can be done via the GameObject tab. After you have created the pointlight you can adjust its settings to match what you wish it to do in the scene, whether you want it soft or intense to cover a small area or a large one. You can also attached to a game object by dragging ad dropping the point light into the object's sub category that you wish to attach it to.
 ## Camera Setup
 When a new project is created a camera object will be provided, this acts as the main camera for the scene and game.
 Place the camera where you want in the scene, for the purpose of creating a 360 vr experience place the camera in the center of your 3D enviroment,
-the direction of the camera will not affect the vr as the 360 vr will allow the player to see in any direction.
+the direction of the camera will not affect the vr as the 360 vr will allow the player to see in any direction. the only effect it will have is where the camera will be initially pointing when the VR project is started.
 ## Panoramic Script
 To create the 360 vr video it is necessary to attach a script that records your game using a panoramic tool,
 this script can be found online in the Unity store for free [(click here)](https://www.assetstore.unity3d.com/en/#!/content/38755). 
 This script comes with a Read Me file explaining how it functions, when you have installed the script into your assets folder,
-drag and drop the script file from your assets on the camera game object in the hierarchy afterwards go to the camera GameObject and
+drag and drop the script file from your assets onto the camera game object in the hierarchy, afterwards go to the camera GameObject and
 through the inspector you can change the settings of the script file to what ever recording you wish to do.
 ## Camera Movement/Animation
 If for you scene you wish to animate the camera/make it move around the scene you will need to use the animation window.
