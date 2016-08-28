@@ -33,7 +33,7 @@ drag and drop the script file from your assets on the camera game object in the 
 through the inspector you can change the settings of the script file to what ever recording you wish to do.
 ## Camera Movement/Animation
 If for you scene you wish to animate the camera/make it move around the scene you will need to use the animation window.
-first select your camera GameObject, then proceed to the window tab at the top and select animation, this will open the animation window.
+first select your camera GameObject, then proceed to the window tab at the top and select animation, this will open the animation window. Unity have their own tutorial for this animation factor [(click here)](https://unity3d.com/learn/tutorials/topics/animation/animation-view?playlist=17099).
 the animation will ask you to create an .anim file, this will be the file stores the animation sequence,
 after creating the animation file you will be to start animating this.
 the first step will be to record the start point of the camera GameObject,
